@@ -17,14 +17,14 @@ Spam messages are a common problem. This project:
 
 ## 📂 Project Structure
 
- data/ # Dataset files
- mlruns/ # MLflow experiment tracking
- train.py # Model training script
- predict.py # Model prediction script
- requirements.txt # Project dependencies
- mlflow.db # MLflow tracking database
- .gitignore # Git ignored files
- README.md # Project documentation
+ - data/ # Dataset files
+ - mlruns/ # MLflow experiment tracking
+ - train.py # Model training script
+ - predict.py # Model prediction script
+ - requirements.txt # Project dependencies
+ - mlflow.db # MLflow tracking database
+ - .gitignore # Git ignored files
+ - README.md # Project documentation
 
 
 ## 🛠️ Technologies Used
