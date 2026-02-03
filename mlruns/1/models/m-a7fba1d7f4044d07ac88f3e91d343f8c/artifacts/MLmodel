@@ -1,0 +1,23 @@
+artifact_path: file:C:/mlflow_vscode_practice/mlflow_spam_detection_project/mlruns/1/models/m-a7fba1d7f4044d07ac88f3e91d343f8c/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.9.0
+model_id: m-a7fba1d7f4044d07ac88f3e91d343f8c
+model_size_bytes: 203813
+model_uuid: m-a7fba1d7f4044d07ac88f3e91d343f8c
+prompts: null
+run_id: 3b23e0e7248948fdaf2451cf90485ee8
+utc_time_created: '2026-02-03 08:18:51.493125'
